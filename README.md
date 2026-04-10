@@ -4,6 +4,8 @@ This is a chrome extension removes google's AI overview. Specifically, it makes 
 
 <img src="./ss.png" width="200px">
 
+Note: on random queries the -ai flag doesn't work, I can't do anything about that
+
 More info on making chrome extensions here: [chrome dev docs](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
 
 ## Running This Extension
