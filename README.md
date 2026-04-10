@@ -1,6 +1,6 @@
 ## no-ai-overview
 
-This is a chrome extension that removes google's AI overview by blocking the prompt from firing. 
+This is a chrome extension removes google's AI overview. Specifically, it makes the browser add some parameters to your web request so that the AI doesn't get prompted. :D
 
 <img src="./ss.png" width="200px">
 
