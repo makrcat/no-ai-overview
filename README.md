@@ -1,7 +1,10 @@
-# Getting Started With Google Chrome Extensions (Hello World)
+## no-ai-overview
 
-This example demonstrates how to create a simple "Hello World" Chrome Extension.
-For more details, visit the [official tutorial](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world).
+This is a chrome extension that removes google's AI overview by blocking the prompt from firing. 
+
+<img src="./ss.png" width="200px">
+
+More info on making chrome extensions here: [chrome dev docs](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
 
 ## Running This Extension
 
