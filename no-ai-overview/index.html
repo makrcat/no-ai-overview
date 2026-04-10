@@ -6,9 +6,13 @@
   <style>
     body {
       font-family: Verdana;
-      width: 220px;
-      padding: 16px;
       margin: 0;
+    }
+
+    .wrapper {
+      border-top: 4px solid #ff0362; 
+      padding: 16px; 
+      width: 250px;
     }
 
     h2 {
@@ -61,18 +65,20 @@
 </head>
 
 <body>
-  <h2>Settings</h2>
-  <div class="row">
-    <label for="toggle">Use '-ai' flag</label>
-    <input type="checkbox" id="flag" checked>
-  </div>
+  <div class="wrapper">
+    <h2>Settings</h2>
+    <div class="row">
+      <label for="toggle">Use '-ai' flag</label>
+      <input type="checkbox" id="flag" checked>
+    </div>
 
-  <div class="row">
-    <label for="toggle">Use 'udm=14' (classic mode)</label>
-    <input type="checkbox" id="udm">
+    <div class="row">
+      <label for="toggle">Use 'udm=14' (classic mode)</label>
+      <input type="checkbox" id="udm">
+    </div>
+    <p>v1.0.0</p>
+    <script src="switcher.js"></script>
   </div>
-  <p>v1.0.0</p>
-  <script src="switcher.js"></script>
 </body>
 
 </html>
